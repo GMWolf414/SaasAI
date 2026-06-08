@@ -1,0 +1,12 @@
+# SaaSAI — wymagane biblioteki
+# Instalacja: pip install -r requirements.txt
+
+streamlit>=1.32.0
+pandas>=2.0.0
+numpy>=1.26.0
+plotly>=5.20.0
+
+# Klienty AI — zainstaluj PRZYNAJMNIEJ JEDEN z poniższych:
+groq>=0.9.0                  # Groq API (darmowy, szybki - ZALECANY)
+openai>=1.25.0               # OpenAI API
+google-generativeai>=0.7.0   # Google Gemini API
